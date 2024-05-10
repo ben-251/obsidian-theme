@@ -237,12 +237,13 @@ a:not(.internal-link) {
 }
 
 /* normal text outside of headings and code of preview */
+/* preview text */
 .markdown-preview-view, .mod-single-child .markdown-preview-view {
   font-family: var(--font-family-editor);
   font-size: var(--font-size-normal);
   padding-top: 0px;
-  padding-left: 2% !important;
-  padding-right: 1% !important;
+  padding-left: 4% !important;
+  padding-right: 2% !important;
 }
 
 /* bold in preview and editor */
@@ -787,11 +788,4 @@ code{
 	.modal.mod-settings button:not(.mod-cta):hover {
 		opacity: 60%;
 	}
-}
-
-/* Body */
-/* body padding in preview*/
-.markdown-preview-view, .mod-single-child .markdown-preview-view {
-  padding-left: 4%;
-  padding-right: 2%;
 }
