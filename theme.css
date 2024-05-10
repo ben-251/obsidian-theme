@@ -788,3 +788,10 @@ code{
 		opacity: 60%;
 	}
 }
+
+/* Body */
+/* body padding in preview*/
+.markdown-preview-view, .mod-single-child .markdown-preview-view {
+  padding-left: 4%;
+  padding-right: 2%;
+}
