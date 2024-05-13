@@ -789,3 +789,9 @@ code{
 		opacity: 60%;
 	}
 }
+
+
+/* Canvas Buttons */
+.canvas-control-item {
+  color: var(--text-on-accent);
+}
