@@ -803,5 +803,5 @@ code{
 }
 
 .canvas-control-item:hover {
-  color: --
+  color: var(--accent-text-on-accent)
 }
