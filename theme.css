@@ -251,13 +251,13 @@ a:not(.internal-link) {
 /* bold in preview and editor */
 strong, .cm-strong {
   font-weight: 600;
-  color: #ff6d99;
+  color: #ff8daf;
 }
 
 /* emphasis in preview and editor */
 em, .cm-em {
   /* color: var(--text-muted); */
-  color: #e48ff7;
+  color: #d18ff7;
   font-style: italic;
 }
 
