@@ -251,13 +251,13 @@ a:not(.internal-link) {
 /* bold in preview and editor */
 strong, .cm-strong {
   font-weight: 600;
-  color: #ff41c6;
+  color: #ff6d99;
 }
 
 /* emphasis in preview and editor */
 em, .cm-em {
   /* color: var(--text-muted); */
-  color: #e4b5ee;
+  color: #e48ff7;
   font-style: italic;
 }
 
@@ -798,10 +798,10 @@ code{
   color: var(--text-on-accent-new);
 }
 
-.canvas-control-item.is-disabled {
-  color: var(--text-on-accent-muted)
+.canvas-control-item.is-disabled { 
+  color: var(--text-on-accent-muted);
 }
 
 .canvas-control-item:hover {
-  color: var(--accent-text-on-accent)
+  color: var(--accent-text-on-accent);
 }
