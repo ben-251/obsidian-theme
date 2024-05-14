@@ -257,7 +257,7 @@ strong, .cm-strong {
 /* emphasis in preview and editor */
 em, .cm-em {
   /* color: var(--text-muted); */
-  color: #d18ff7;
+  color: #e3b3ff;
   font-style: italic;
 }
 
