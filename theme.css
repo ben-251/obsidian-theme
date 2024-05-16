@@ -384,7 +384,7 @@ img:hover {
 }
 
 .markdown-preview-view h1 {
-  background-color: color-mix(in srgb, var(--text-title-h1) 40%, transparent);
+  background-color: color-mix(in srgb, var(--text-title-h1) 60%, transparent);
   color: white
 }
 
