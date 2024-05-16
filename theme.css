@@ -378,10 +378,11 @@ img:hover {
 .markdown-preview-view h5,
 .markdown-preview-view h6 {
   padding: 0.25em 0.5em;
+  font-weight: 600;
 }
 
 .markdown-preview-view h1 {
-  background-color: var(--h1-background);
+  background-color: color-mix(in srgb, var(--text-title-h1) 40%, transparent);
   color: white
 }
 
