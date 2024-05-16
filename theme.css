@@ -380,6 +380,8 @@ img:hover {
   padding: 0.25em 0.5em;
   font-weight: 600;
   line-height: normal;
+  display: flex;
+  align-items: center;
 }
 
 .markdown-preview-view h1 {
