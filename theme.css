@@ -61,29 +61,12 @@
   --scrollbar-bg: rgba(255, 255, 255, 0.05);
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
 
-  --text-title-h1-rgb: 202,164,255;
-  --text-title-h1: rgb(var(--text-title-h1-rgb));
-  --h1-background: rgba(var(--text-title-h1-rgb),0.5);
-
-  --text-title-h2-rgb: 255,184,108;
-  --text-title-h2: rgb(var(--text-title-h2-rgb));
-  --h2-background: rgba(var(--text-title-h2-rgb),0.5);
-
-  --text-title-h3: 139,233,253;
-  --text-title-h3: rgb(var(--text-title-h3-rgb));
-  --h3-background: rgba(var(--text-title-h3-rgb),0.5);
-
-  --text-title-h4: 255,121,233;
-  --text-title-h4: rgb(var(--text-title-h4-rgb));
-  --h4-background: rgba(var(--text-title-h4-rgb),0.5);
-
-  --text-title-h5: 80,250,73;
-  --text-title-h5: rgb(var(--text-title-h5-rgb));
-  --h5-background: rgba(var(--text-title-h5-rgb),0.5);
-
-  --text-title-h6: 255,85,85;
-  --text-title-h6: rgb(var(--text-title-h6-rgb));
-  --h6-background: rgba(var(--text-title-h6-rgb),0.5);
+  --text-title-h1: #bd93f9;
+  --text-title-h2: #ffb86c;
+  --text-title-h3: #8be9fd;
+  --text-title-h4: #ff79e9;
+  --text-title-h5: #50fa7b;
+  --text-title-h6: #ff5555;
 
   --italic-color: #ffd17c;
   --bold-color: #ff559c;
@@ -354,7 +337,6 @@ img:hover {
   font-weight: 500;
   font-size: var(--font-size-h2);
   color: var(--text-title-h2);
-  background-color: var(--h2-background);
 }
 
 .cm-header-3,
@@ -363,7 +345,6 @@ img:hover {
   font-weight: 500;
   font-size: var(--font-size-h3);
   color: var(--text-title-h3);
-  background-color: var(--h3-background);
 }
 
 .cm-header-4,
@@ -371,8 +352,7 @@ img:hover {
   font-family: var(--font-family-editor);
   font-weight: 500;
   font-size: var(--font-size-h4);
-  color: var(--text-title-h4);
-  background-color: var(--h4-background);
+  color: var(--text-title-h4);;
 }
 
 .cm-header-5,
@@ -381,7 +361,6 @@ img:hover {
   font-weight: 500;
   font-size: var(--font-size-h5);
   color: var(--text-title-h5);
-  background-color: var(--h5-background);
 }
 
 .cm-header-6,
@@ -390,7 +369,6 @@ img:hover {
   font-weight: 500;
   font-size: var(--font-size-h6);
   color: var(--text-title-h6);
-  background-color: var(--h6-background);
 }
 
 .markdown-preview-view h1,
@@ -404,26 +382,32 @@ img:hover {
 
 .markdown-preview-view h1 {
   background-color: var(--h1-background);
+  color: white
 }
 
 .markdown-preview-view h2 {
-  background-color: var(--h2-background);
+  background-color: color-mix(in srgb, var(--text-title-h2) 40%, transparent);
+  color: white
 }
 
 .markdown-preview-view h3 {
-  background-color: var(--h3-background);
+  background-color: color-mix(in srgb, var(--text-title-h3) 40%, transparent);
+  color: white
 }
 
 .markdown-preview-view h4 {
-  background-color: var(--h4-background);
+  background-color: color-mix(in srgb, var(--text-title-h4) 40%, transparent);
+  color: white
 }
 
 .markdown-preview-view h5 {
-  background-color: var(--h5-background);
+  background-color: color-mix(in srgb, var(--text-title-h5) 40%, transparent);
+  color: white
 }
 
 .markdown-preview-view h6 {
-  background-color: var(--h6-background);
+  background-color: color-mix(in srgb, var(--text-title-h6) 40%, transparent);
+  color: white
 }
 /***************************************/
 /*         Code block in  Preview      */
