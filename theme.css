@@ -67,7 +67,7 @@
 
   --text-title-h2-rgb: 255,184,108;
   --text-title-h2: rgb(var(--text-title-h2-rgb));
-  --h2-background: rgba(var(var(--text-title-h2-rgb)),0.5)
+  --h2-background: rgba(var(--text-title-h2-rgb),0.5);
 
   --text-title-h3: 139,233,253;
   --text-title-h3: rgb(var(--text-title-h3-rgb));
@@ -85,7 +85,7 @@
   --text-title-h6: rgb(var(--text-title-h6-rgb));
   --h6-background: rgba(var(--text-title-h6-rgb),0.5);
 
-  --italic-color: #ffeb90;
+  --italic-color: #ffd17c;
   --bold-color: #ff559c;
   --bold-italic-color: #ffd560;
   --inline-code: #ff9ecb;
@@ -293,8 +293,7 @@ em,
 }
 
 /* bold & italics emphasis in preview and editor */
-
-.cm-strong.cm-em {
+.cm-strong.cm-em, strong em {
   color: var(--bold-italic-color);
 }
 
@@ -347,7 +346,6 @@ img:hover {
   font-weight: 500;
   font-size: var(--font-size-h1);
   color: var(--text-title-h1);
-  background-color: var(--h1-background);
 }
 
 .cm-header-2,
@@ -395,6 +393,38 @@ img:hover {
   background-color: var(--h6-background);
 }
 
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  padding: 0.25em 0.5em;
+}
+
+.markdown-preview-view h1 {
+  background-color: var(--h1-background);
+}
+
+.markdown-preview-view h2 {
+  background-color: var(--h2-background);
+}
+
+.markdown-preview-view h3 {
+  background-color: var(--h3-background);
+}
+
+.markdown-preview-view h4 {
+  background-color: var(--h4-background);
+}
+
+.markdown-preview-view h5 {
+  background-color: var(--h5-background);
+}
+
+.markdown-preview-view h6 {
+  background-color: var(--h6-background);
+}
 /***************************************/
 /*         Code block in  Preview      */
 /***************************************/
