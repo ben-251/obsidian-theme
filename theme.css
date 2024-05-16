@@ -70,20 +70,20 @@
   --h2-background: rgba(var(var(--text-title-h2-rgb)),0.5)
 
   --text-title-h3: 139,233,253;
-  --text-title-h1: rgb(var(--text-title-h3-rgb));
-  --h1-background: rgba(var(--text-title-h3-rgb),0.5);
+  --text-title-h3: rgb(var(--text-title-h3-rgb));
+  --h3-background: rgba(var(--text-title-h3-rgb),0.5);
 
   --text-title-h4: 255,121,233;
-  --text-title-h1: rgb(var(--text-title-h4-rgb));
-  --h1-background: rgba(var(--text-title-h4-rgb),0.5);
+  --text-title-h4: rgb(var(--text-title-h4-rgb));
+  --h4-background: rgba(var(--text-title-h4-rgb),0.5);
 
   --text-title-h5: 80,250,73;
-  --text-title-h1: rgb(var(--text-title-h5-rgb));
-  --h1-background: rgba(var(--text-title-h5-rgb),0.5);
+  --text-title-h5: rgb(var(--text-title-h5-rgb));
+  --h5-background: rgba(var(--text-title-h5-rgb),0.5);
 
   --text-title-h6: 255,85,85;
-  --text-title-h1: rgb(var(--text-title-h6-rgb));
-  --h1-background: rgba(var(--text-title-h6-rgb),0.5);
+  --text-title-h6: rgb(var(--text-title-h6-rgb));
+  --h6-background: rgba(var(--text-title-h6-rgb),0.5);
 
   --italic-color: #ffeb90;
   --bold-color: #ff559c;
@@ -347,6 +347,7 @@ img:hover {
   font-weight: 500;
   font-size: var(--font-size-h1);
   color: var(--text-title-h1);
+  background-color: var(--h1-background);
 }
 
 .cm-header-2,
@@ -355,6 +356,7 @@ img:hover {
   font-weight: 500;
   font-size: var(--font-size-h2);
   color: var(--text-title-h2);
+  background-color: var(--h2-background);
 }
 
 .cm-header-3,
@@ -363,6 +365,7 @@ img:hover {
   font-weight: 500;
   font-size: var(--font-size-h3);
   color: var(--text-title-h3);
+  background-color: var(--h3-background);
 }
 
 .cm-header-4,
@@ -371,6 +374,7 @@ img:hover {
   font-weight: 500;
   font-size: var(--font-size-h4);
   color: var(--text-title-h4);
+  background-color: var(--h4-background);
 }
 
 .cm-header-5,
@@ -379,6 +383,7 @@ img:hover {
   font-weight: 500;
   font-size: var(--font-size-h5);
   color: var(--text-title-h5);
+  background-color: var(--h5-background);
 }
 
 .cm-header-6,
@@ -387,6 +392,7 @@ img:hover {
   font-weight: 500;
   font-size: var(--font-size-h6);
   color: var(--text-title-h6);
+  background-color: var(--h6-background);
 }
 
 /***************************************/
