@@ -68,9 +68,9 @@
   --text-title-h5: #50fa7b;
   --text-title-h6: #ff5555;
 
-  --italic-color: #e79aff;
-  --bold-color: #8922ff;
-  --bold-italic-color: #ff4cd2;
+  --italic-color: #ebabff;
+  --bold-color: #bd83ff;
+  --bold-italic-color: #ff92e4;
   --inline-code: #ff9ecb;
   --code-block: #8be9fd;
   --pre-code: #44475a;
@@ -379,6 +379,7 @@ img:hover {
 .markdown-preview-view h6 {
   padding: 0.25em 0.5em;
   font-weight: 600;
+  line-height: normal;
 }
 
 .markdown-preview-view h1 {
