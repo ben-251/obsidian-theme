@@ -17,10 +17,7 @@
   --tag-bg: rgba(225, 128, 255, 0.144);
   --tag-font-color: rgb(239, 206, 255);
   --tag-radius: 2em;
-  --callout-question-new: 168, 130, 255
-}
-
-* {
+  --callout-question-new: 168, 130, 255;
   letter-spacing: 0.05em;
 }
 
