@@ -20,6 +20,10 @@
   --callout-question-new: 168, 130, 255
 }
 
+* {
+  letter-spacing: 0.05em;
+}
+
 .theme-light,
 .theme-dark {
   --background-primary: #282a36;
