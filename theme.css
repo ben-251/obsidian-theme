@@ -507,7 +507,7 @@ thead {
   border-bottom: 3px solid var(--background-modifier-border);
 }
 
-.table {
+.markdown-preview-view .table {
   padding: 4px;
   line-height: normal;
   display: block;
@@ -520,7 +520,7 @@ thead {
 	text-align: left;
 }
 
-.table > * {
+.markdown-preview-view .table > * {
   /* targets the rows of the table */
   width: 100%
 }
