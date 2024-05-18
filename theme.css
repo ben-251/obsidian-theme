@@ -510,13 +510,12 @@ thead {
 .markdown-preview-view table {
   padding: 4px;
   line-height: normal;
-  display: block;
   border-radius: 4px;
-  margin: auto;
+  margin: 1em auto 2em;
+  padding: 2% 3%;
 	width: fit-content;
   min-width: 50%;
   max-width: 80%;
-	padding: 2% 3%;
 	text-align: left;
 }
 
