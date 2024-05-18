@@ -18,7 +18,6 @@
   --tag-font-color: rgb(239, 206, 255);
   --tag-radius: 2em;
   --callout-question-new: 168, 130, 255;
-  letter-spacing: 0.05em;
 }
 
 .theme-light,
@@ -79,6 +78,10 @@
   --vim-cursor: #ff5555;
   --border-color: #2b2727;
   /*also like transparent*/
+}
+
+body {
+  letter-spacing: 0.05em;
 }
 
 /*-------------------------------------*/
