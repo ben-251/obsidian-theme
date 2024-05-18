@@ -514,8 +514,8 @@ thead {
   border-radius: 4px;
   margin: auto;
 	width: fit-content;
-  min-width: 50vw;
-  max-width: 80vw;
+  min-width: 50%;
+  max-width: 80%;
 	padding: 2% 3%;
 	text-align: left;
 }
