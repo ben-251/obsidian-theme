@@ -50,7 +50,7 @@
   --text-highlight-bg: #ff5555;
   --text-error: #ff79c6;
   --text-error-hover: #ff79c6;
-  --text-selection: #6272a4;
+  --text-selection: var(--interactive-accent);
   /* Chromium precess this color with alpha channel */
   --text-on-accent-new: #000000b0;
   --text-on-accent-muted: #00000091;
@@ -237,6 +237,7 @@ a:not(.internal-link) {
 /* font for everything outside of editor/preview panes */
 .app-container {
   font-family: var(--font-family-preview);
+  /* letter-spacing: 0.02em; */
 }
 
 /* set the text selection color for preview mode */
@@ -249,6 +250,7 @@ a:not(.internal-link) {
 .mod-single-child .cm-s-obsidian {
   font-family: var(--font-family-editor);
   font-size: var(--font-size-normal);
+  letter-spacing: 0.02em;
 }
 
 /* normal text outside of headings and code of preview */
