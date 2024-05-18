@@ -512,7 +512,6 @@ thead {
   line-height: normal;
   border-radius: 4px;
   margin: 1em 1em 2em;
-  padding: 2em;
 	width: fit-content;
   min-width: 50%;
   max-width: 80%;
@@ -522,6 +521,11 @@ thead {
 .markdown-reading-view table > * {
   /* targets the rows of the table */
   width: 100%
+}
+
+.markdown-reading-view table th,
+.markdown-reading-view table td {
+  padding: 2em
 }
 
 /***************************************/
