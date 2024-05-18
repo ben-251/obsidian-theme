@@ -520,6 +520,10 @@ thead {
 	text-align: left;
 }
 
+.table > * {
+  /* targets the rows of the table */
+  width: 100%
+}
 
 /***************************************/
 /*               Checkbox              */
