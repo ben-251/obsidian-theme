@@ -260,7 +260,7 @@ a:not(.internal-link) {
   padding-right: 2% !important;
 }
 
-.markdown-rendered p + p {
+.markdown-rendered div:has(p) + div > p {
   margin-block-start: 0;
   text-indent: 4em;
 }
