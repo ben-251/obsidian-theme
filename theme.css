@@ -260,6 +260,10 @@ a:not(.internal-link) {
   padding-right: 2% !important;
 }
 
+.markdown-rendered p + p {
+  margin-block-start: 0;
+  text-indent: 4em;
+}
 /* bold in preview and editor */
 strong,
 .cm-strong {
