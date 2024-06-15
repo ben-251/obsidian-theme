@@ -260,10 +260,16 @@ a:not(.internal-link) {
   padding-right: 2% !important;
 }
 
+.markdown-rendered p {
+  margin-block-start: calc(var(--p-spacing)*2);
+  margin-block-end: 0;
+}
+
 .markdown-rendered div:has(p) + div > p {
   margin-block-start: 0;
   text-indent: 4em;
 }
+
 /* bold in preview and editor */
 strong,
 .cm-strong {
