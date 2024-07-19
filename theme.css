@@ -452,7 +452,8 @@ center the text (since the image is centered as well */
   text-align: center;
   width: max-content;
   box-sizing: border-box;
-  padding: auto 1em
+  padding: auto 1em;
+  margin: auto
 }
 
 /***************************************/
