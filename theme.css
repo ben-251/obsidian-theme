@@ -430,13 +430,13 @@ img:hover {
 /* When a heading immediately precedes an image, 
 center the text (since the image is centered as well */
 :is(
-    div:has(.cm-header-1), .markdown-preview-view h1,
-    div:has(.cm-header-2), .markdown-preview-view h2,
-    div:has(.cm-header-3), .markdown-preview-view h3,
-    div:has(.cm-header-4), .markdown-preview-view h4,
-    div:has(.cm-header-5), .markdown-preview-view h5,
-    div:has(.cm-header-6), .markdown-preview-view h6  
-  ):has(+ div.image-embed > img) {
+    div:has(.cm-header-1), .markdown-preview-view div:has(h1),
+    div:has(.cm-header-2), .markdown-preview-view div:has(h2),
+    div:has(.cm-header-3), .markdown-preview-view div:has(h3),
+    div:has(.cm-header-4), .markdown-preview-view div:has(h4),
+    div:has(.cm-header-5), .markdown-preview-view div:has(h5),
+    div:has(.cm-header-6), .markdown-preview-view div:has(h6)  
+  ):has(:is(+ div.image-embed > img, + div > p > span > img)) {
   text-align: center;
   text-decoration:overline;
 }
