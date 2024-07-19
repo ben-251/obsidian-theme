@@ -351,7 +351,7 @@ img:hover {
   font-family: var(--font-family-editor);
   font-weight: 500;
   font-size: var(--font-size-h2);
-  color: var(--text-title-h1);
+  color: var(--text-title-h2);
 }
 
 .cm-header-3,
@@ -426,6 +426,22 @@ img:hover {
   background-color: color-mix(in srgb, var(--text-title-h6) 40%, transparent);
   color: white
 }
+
+/* When a heading immediately precedes an image, 
+center the text (since the image is centered as well */
+:is(
+    div:has(.cm-header-1), .markdown-preview-view h1,
+    div:has(.cm-header-2), .markdown-preview-view h2,
+    div:has(.cm-header-3), .markdown-preview-view h3,
+    div:has(.cm-header-4), .markdown-preview-view h4,
+    div:has(.cm-header-5), .markdown-preview-view h5,
+    div:has(.cm-header-6), .markdown-preview-view h6  
+  ):has(+ div img) {
+  text-align: center;
+  font-size: 10px;
+}
+
+
 /***************************************/
 /*         Code block in  Preview      */
 /***************************************/
