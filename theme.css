@@ -329,6 +329,9 @@ img:hover {
   transform: none;
 }
 
+.internal-embed img:not([width]){
+  max-width: 50vw;
+}
 /*********************************/
 /* Headings - EDITOR and PREVIEW */
 /*********************************/
@@ -454,6 +457,10 @@ center the text (since the image is centered as well */
   box-sizing: border-box;
   padding: auto 1em;
   margin: auto
+}
+/* center the captions under the images in reader mode */
+.markdown-preview-view div > p:has(img) {
+  text-align: center;
 }
 
 /***************************************/
