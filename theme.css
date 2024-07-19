@@ -450,7 +450,9 @@ center the text (since the image is centered as well */
     .markdown-preview-view div:has(h6)  
   ):has( + div > p > span > img) {
   text-align: center;
-  text-decoration:overline;
+  width: max-content;
+  box-sizing: border-box;
+  padding: auto 1em
 }
 
 /***************************************/
