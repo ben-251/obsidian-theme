@@ -441,7 +441,6 @@ center the text (since the image is centered as well */
     div:has(.cm-header-6)
   ):has(+ div.image-embed > img) {
   text-align: center;
-  text-decoration:overline;
 }
 
 :is(
