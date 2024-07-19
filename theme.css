@@ -455,7 +455,8 @@ center the text (since the image is centered as well */
   width: max-content;
   box-sizing: border-box;
   padding: auto 1em;
-  margin: auto
+  margin: auto;
+  background-color: transparent
 }
 /* center the captions under the images in reader mode */
 .markdown-preview-view div > p:has(img) {
