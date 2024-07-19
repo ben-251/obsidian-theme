@@ -330,7 +330,7 @@ img:hover {
 }
 
 .internal-embed img:not([width]){
-  max-width: 30vw;
+  max-width: 20vw;
 }
 /*********************************/
 /* Headings - EDITOR and PREVIEW */
