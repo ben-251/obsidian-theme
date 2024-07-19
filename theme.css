@@ -438,7 +438,8 @@ center the text (since the image is centered as well */
     div:has(.cm-header-6), .markdown-preview-view h6  
   ):has(+ div img) {
   text-align: center;
-  font-size: 10px;
+  background-color: pink;
+  text-decoration: dotted;
 }
 
 
