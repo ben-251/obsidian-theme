@@ -330,7 +330,7 @@ img:hover {
 }
 
 .internal-embed img:not([width]){
-  max-width: 50vw;
+  max-width: 30vw;
 }
 /*********************************/
 /* Headings - EDITOR and PREVIEW */
@@ -462,6 +462,12 @@ center the text (since the image is centered as well */
 .markdown-preview-view div > p:has(img) {
   text-align: center;
 }
+/* same but in edit. almost the same but allowing any p tags 
+that aren't directly undner just cuz it's too complex */
+.image-embed ~ .cm-line {
+  text-align: center;
+}
+
 
 /***************************************/
 /*         Code block in  Preview      */
