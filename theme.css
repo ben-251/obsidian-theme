@@ -458,6 +458,22 @@ center the text (since the image is centered as well */
   margin: auto;
   background-color: transparent
 }
+
+:is(
+    .markdown-preview-view div:has(h1),
+    .markdown-preview-view div:has(h2),
+    .markdown-preview-view div:has(h3),
+    .markdown-preview-view div:has(h4),
+    .markdown-preview-view div:has(h5),
+    .markdown-preview-view div:has(h6)  
+  ):has( + div > p > span > img) :is(h1,h2,h3,h4,h5,h6) {
+  text-align: center;
+  width: max-content;
+  box-sizing: border-box;
+  padding: auto 1em;
+  margin: auto;
+  background-color: transparent
+}
 /* center the captions under the images in reader mode */
 .markdown-preview-view div > p:has(img) {
   text-align: center;
